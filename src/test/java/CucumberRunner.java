@@ -12,8 +12,7 @@ import org.junit.runner.RunWith;
                 "progress",
                 "summary"},
         glue = {"ru.appline.homework.steps"},
-        features = {"src/test/resources/cucumber.feature"},
-        tags = "@checkMortgage"
+        features = {"src/test/resources/"}
 )
 public class CucumberRunnerTest {
 
